@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-common" />
+        <module name="platform-telemetry" />
+        <module name="search-actors" />
+        <module name="search-manager" />
+        <module name="searchindex-common" />
+        <module name="searchindex-elasticsearch" />
+        <module name="unit-tests" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cassandra-connector" target="1.8" />
+      <module name="ekstep-graph-engine" target="1.8" />
+      <module name="graph-cache-mgr" target="1.8" />
+      <module name="graph-common" target="1.8" />
+      <module name="graph-core" target="1.8" />
+      <module name="graph-dac" target="1.8" />
+      <module name="graph-dac-api" target="1.8" />
+      <module name="graph-engine" target="1.8" />
+      <module name="graph-engine-api" target="1.8" />
+      <module name="platform-dac" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
